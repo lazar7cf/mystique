@@ -148,7 +148,7 @@ export function HomePage() {
                   asChild
                   variant="outline"
                   size="2xl"
-                  className="border-sage-300 text-sage-800 hover:bg-white/50 backdrop-blur-sm transition-all duration-500 hover:border-gold-400"
+                  className="border-sage-300 text-sage-800 hover:text-sage-900 hover:bg-white/50 backdrop-blur-sm transition-all duration-500 hover:border-gold-400"
                 >
                   <Link to="/usluge/frizerske-usluge">
                     Istražite usluge
