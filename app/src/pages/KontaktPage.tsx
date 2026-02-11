@@ -39,14 +39,14 @@ export function KontaktPage() {
               Zakažite svoj <span className="text-gold-500 italic">trenutak </span> <br />u Mystique-u
             </h1>
             <p className="text-xl text-sage-600 leading-relaxed font-light">
-              Naš Concierge tim je spreman da Vam pomogne u odabiru savršenog
+              Naše ljubazno osoblje je spremno da Vam pomogne u odabiru savršenog
               tretmana i rezervaciji Vašeg ekskluzivnog termina.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Main Contact Concierge Section */}
+      {/* Main Contact Section */}
       <section className="py-24 md:py-32 relative bg-white overflow-hidden texture-marble">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-12 gap-16 items-start">
@@ -113,7 +113,7 @@ export function KontaktPage() {
               </div>
             </div>
 
-            {/* Booking Concierge Form Card */}
+            {/* Booking Form Card */}
             <div className="lg:col-span-7 order-1 lg:order-2">
               <div className="bg-white rounded-[4rem] shadow-2xl p-10 md:p-16 border border-sage-100 relative overflow-hidden group">
                 {/* Decorative Elements */}
@@ -126,7 +126,7 @@ export function KontaktPage() {
                       <Send className="w-8 h-8 text-white" />
                     </div>
                     <div>
-                      <h3 className="font-serif text-3xl text-sage-900">Concierge Rezervacija</h3>
+                      <h3 className="font-serif text-3xl text-sage-900">Brza Rezervacija</h3>
                       <p className="text-sage-500 uppercase tracking-widest text-xs mt-1">Odgovaramo u roku od 30 minuta</p>
                     </div>
                   </div>
@@ -228,7 +228,7 @@ export function KontaktPage() {
               >
                 <Phone className="w-8 h-8" />
                 <div className="text-left">
-                  <p className="text-[10px] uppercase font-bold text-white/70">Pozovite Concierge</p>
+                  <p className="text-[10px] uppercase font-bold text-white/70">Pozovite nas</p>
                   <p className="text-2xl font-bold">+381 62 44 33 22</p>
                 </div>
               </a>

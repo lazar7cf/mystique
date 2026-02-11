@@ -56,7 +56,7 @@ export function Header() {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-700 ${isScrolled
+        className={`fixed top-0 left-0 right-0 transition-all duration-700 ${isMobileMenuOpen ? 'z-[120]' : 'z-[100]'} ${isScrolled
           ? 'bg-sage-900/80 backdrop-blur-2xl py-3 border-b border-white/5'
           : 'bg-transparent py-6 md:py-8'
           }`}
